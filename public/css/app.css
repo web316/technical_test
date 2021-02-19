@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color:#e5e5e5;
+    border-bottom: #ccc 1px solid;
+}
+
+header h1 {
+    margin:0;
+    padding: .25em;
+}
+
+form {
+    padding: 1em;
+}
+
+form input, form select {
+    padding-right: 1em;
+}
+
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
